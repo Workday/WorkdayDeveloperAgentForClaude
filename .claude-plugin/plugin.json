@@ -6,7 +6,8 @@
   "homepage": "https://developer.workday.com/developer-agent",
   "description": "Use Workday Developer Agent to build Workday Extend apps from Claude Code and Desktop.",
   "author": {
-    "name": "Workday"
+    "name": "Workday",
+    "url": "https://github.com/Workday"
   },
   "keywords": ["workday", "build", "extend", "developer-agent", "low-code"]
 }

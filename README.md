@@ -28,7 +28,7 @@ flowchart LR
 
 ## Install (developer setup)
 
-This plugin requires a Workday Developer Platform account. If you do not have an account yet, go to the [Workday Developer Portal](https://developer.workday.com) to get started.
+This plugin requires a Workday Developer Platform account. If you do not have an account yet, go to the [Workday Developer Portal](https://developer.workday.com) to get started. The download for `wdcli` is only available after logging into the Workday Developer Portal at the [Download Page.](https://developer.workday.com/downloads)
 
 1. Download and install the Workday Developer CLI (`wdcli`) and sign in.
 2. Install the Workday Developer Agent extension in VS Code or Cursor and sign in.
