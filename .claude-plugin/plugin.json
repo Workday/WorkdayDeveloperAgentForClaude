@@ -4,7 +4,7 @@
   "displayName": "Workday Developer Agent for Claude",
   "version": "0.1.0",
   "homepage": "https://developer.workday.com/developer-agent",
-  "description": "Use Workday Developer Agent to build Workday Extend apps from Claude Code and Desktop.",
+  "description": "Use Workday Developer Agent to build Workday Extend apps from the Claude Code CLI.",
   "author": {
     "name": "Workday",
     "url": "https://github.com/Workday"
