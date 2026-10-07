@@ -20,7 +20,7 @@ import os from 'node:os';
 import path from 'node:path';
 
 const workdayDir = path.join(os.homedir(), '.workday');
-const EXTENSION_ID = 'workday.workday-developer-agent-extension';
+const EXTENSION_ID = 'workday.workday-developer-agent';
 const isWindows = process.platform === 'win32';
 
 let failed = false;
