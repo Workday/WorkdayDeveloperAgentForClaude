@@ -2,12 +2,13 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "workday-developer-agent-for-claude",
   "displayName": "Workday Developer Agent for Claude",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://developer.workday.com/developer-agent",
   "description": "Use Workday Developer Agent to build Workday Extend apps from the Claude Code CLI.",
   "author": {
     "name": "Workday",
     "url": "https://github.com/Workday"
   },
+  "privacyPolicyUrl": "https://www.workday.com/en-us/privacy.html",
   "keywords": ["workday", "build", "extend", "developer-agent", "low-code"]
 }
