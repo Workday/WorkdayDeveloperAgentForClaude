@@ -4,6 +4,12 @@ A Claude Code plugin that lets developers use **Workday Developer Agent** from C
 
 This plugin is designed to work with the Claude Code CLI experience, and currently is not enabled in other surfaces.
 
+## Get Started
+
+Claude Code can be downloaded from [Anthropic](https://claude.com/product/claude-code).
+
+Download [Workday Developer Agent for Claude](https://claude.com/marketplace/plugins/workday-developer-agent-for-claude) from the Claude Code marketplace.
+
 ## Workday Developer Agent
 
 Workday Developer Agent is the premier AI assistant to code custom agents and apps that run in Workday. It enables developers to
