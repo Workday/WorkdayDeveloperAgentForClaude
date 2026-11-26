@@ -15,9 +15,9 @@ export function findAppRoot(startDir) {
   // path.dirname() is its own fixed point at the filesystem root, which ends the loop.
   for (;;) {
     try {
-      if (fs.existsSync(path.join(dir, MANIFEST))) return dir;
+      if (fs.statSync(path.join(dir, MANIFEST)).isFile()) return dir;
     } catch {
-      // Unreadable directory: keep walking rather than blocking.
+      // Missing or unreadable manifest: keep walking rather than blocking.
     }
     const parent = path.dirname(dir);
     if (parent === dir) return null;
