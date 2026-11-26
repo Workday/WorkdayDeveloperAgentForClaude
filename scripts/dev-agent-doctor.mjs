@@ -95,7 +95,9 @@ if (ideClis.length === 0) {
   check('ide-extension', 'WARN', "neither 'code' nor 'cursor' is on PATH - could not check");
 } else {
   const withExtension = ideClis
-    .filter(({ result }) => result.stdout.toLowerCase().includes(EXTENSION_ID))
+    .filter(({ result }) =>
+      result.stdout.split(/\r?\n/).some((line) => line.trim().toLowerCase() === EXTENSION_ID)
+    )
     .map(({ cli }) => cli);
   if (withExtension.length > 0) {
     check('ide-extension', 'PASS', `${EXTENSION_ID} installed (${withExtension.join(', ')})`);
